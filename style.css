@@ -7,9 +7,9 @@ body {
     sans-serif;
 }
 /*Estilos del logo, titulo y boton CTA*/
-.head_primary {
+.head {
   margin: 0px;
-  height: 100px;
+  height: 15vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -39,7 +39,7 @@ body {
     box-shadow: none;
     background-color: #683CB5;
     color: white;
-    font-size: 17px;
+    font-size: 25px;
 }
 .CTA .link{
     text-decoration: none;
