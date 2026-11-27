@@ -1,6 +1,7 @@
 /*Estilos del body*/
 body {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
   font-family:
     ui-rounded, "Hiragino Maru Gothic ProN", Quicksand, Comfortaa, Manjari,
     "Arial Rounded MT", "Arial Rounded MT Bold", Calibri, source-sans-pro,
@@ -9,15 +10,15 @@ body {
 /*Estilos del logo, titulo y boton CTA*/
 .head {
   margin: 0px;
-  height: 15vh;
+  height: 20vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #cabae6;
 }
 .logo {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 }
 .title {
   height: 100%;
@@ -33,14 +34,50 @@ body {
   height: 100%;
   width: 100%;
 }
-.CTA{
-    padding: 8px 9px;
+.cta{
+    padding: 12px 14px;
     border-radius: 15px;
     box-shadow: none;
     background-color: #683CB5;
     color: white;
     font-size: 25px;
+    cursor: pointer;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+   
+
 }
-.CTA .link{
+.cta .link a{
     text-decoration: none;
+    
 }
+.cta:hover{
+    background-color: #F3E5F5;
+    color: #683CB5 ;
+    border-color: 2px #683CB5 ;
+    font-size: 40px;
+}
+.menu{
+   display: flex;
+   justify-content: space-around;
+   background-color: #F3E5F5;
+   height: 60px;
+}
+
+.menu ol{
+    border-right: #f76697;
+    display: flex;
+    align-items: center;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+}
+.menu ol a{
+  color: #f76697;
+  text-decoration: none;
+  position: fixed;
+
+}
+.menu ol a:hover{
+  color: #683CB5;
+  font-size: 20px;
+
+}
+
