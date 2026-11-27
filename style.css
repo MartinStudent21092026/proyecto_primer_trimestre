@@ -44,7 +44,7 @@ body {
 .CTA .link{
     text-decoration: none;
 }
-
+/* css de javi */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -100,10 +100,14 @@ body {
 }
 
 .logo-circulo img {
-  width: 85% !important;
-  height: 85% !important;
-  object-fit: contain !important;
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
   display: block;
+}
+
+.logo-grande {
+  transform: scale(1.65);
 }
 
 
